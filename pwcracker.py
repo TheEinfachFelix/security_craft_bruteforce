@@ -17,7 +17,7 @@ start_time = datetime.now()
 def pixel_check():
     img = pyautogui.screenshot() # makes Screenshot. Due to performance it does not get stored
     pix = img.load()
-    img_size = img.size # some math to scale this to your diaplay
+    img_size = img.size # some math to scales coards to your diaplay
     faktor_x = 800/1920
     faktor_y = 511/1080
     exact_x = int(img_size[0]*faktor_x)
@@ -38,7 +38,7 @@ while True:
     if keyboard.is_pressed(toggle_key):
         print("Running...")
         for i in range(max_value):
-            sleep(0.05)
+            sleep(0.02)
             if keyboard.is_pressed(exit_key): #exit while running
                 print("aborting")
                 print("Runtime: " + str(datetime.now() - start_time))
