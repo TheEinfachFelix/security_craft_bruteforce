@@ -1,4 +1,4 @@
-# security_craft_brutforce
+# security_craft_bruteforce
 
 This Script can be used to bypass the key locks from the [security craft](https://www.curseforge.com/minecraft/mc-mods/security-craft) Minecraft mod.
 
