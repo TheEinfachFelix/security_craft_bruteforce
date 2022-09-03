@@ -21,7 +21,7 @@ Task bar at the bottom please. If the bar is standart or double size does not ma
 It will automatically scale to your display. As long its in 16:9
 
 ### How to run:
-First set your range that you want to brute force using the `max_value` var. (it takes ca 2 min per 1000 combinations)
+First set your range that you want to brute force using the `max_value` var. (it takes ca 1 min per 1000 combinations)
 Then you run the script and go into Minecraft, open your target and press `z` to run it. `ESC` quits the script. 
 
 Also the output of the combination might only be in the area of the true combination.

@@ -7,7 +7,7 @@ import pyautogui #this too
 
 toggle_key = 'z'
 exit_key = 'Escape'
-max_value = 1500
+max_value = 1000
 start_time = datetime.now()
 
 
